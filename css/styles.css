@@ -3724,7 +3724,7 @@ img.u-pull-left {
 
 .folio-list__item-title {
     font-family : var(--font-1);
-    font-weight : 200;
+    font-weight : 500;
     font-size   : var(--text-lg);
 }
 
@@ -3941,7 +3941,7 @@ img.u-pull-left {
  * responsive:
  * works
  * ------------------------------------------------------------------- */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .folio-list__item-title {
         font-size   : var(--text-md);
         line-height : var(--vspace-0_875);
@@ -3970,7 +3970,7 @@ img.u-pull-left {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     .folio-list__item-title {
         font-size   : var(--text-md);
         line-height : var(--vspace-0_875);
